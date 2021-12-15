@@ -1,3 +1,69 @@
 body {
-    font-family: 'Prompt', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  margin: 0;
 }
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 50%;
+  margin: auto;
+  border-radius: 16px;
+  background-color: pink;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  color: mediumpurple;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 75%;
+  margin: auto;
+}
+i {
+  color: pink;
+}
+.battlefield {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 50px 20%;
+}
+
+.battlefield i {
+  font-size: 200px;
+}
+
+#computer-hand {
+  transform: scaleX(-1); /* mirror */
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.choose button {
+  border-radius: 16px;
+  border: 0 solid;
+  background-color: lightyellow;
+  padding: 8px;
+}
+.choose i {
+  font-size: 100px;
+}
+
+

@@ -6,16 +6,44 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;500;800&display=swap" rel="stylesheet">
+
+<!--  I use icons from Fontawesome instead of images(.svg) because it's can change icons color-->
+  <script src="https://kit.fontawesome.com/8339883ba8.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
   <h1>ROCK PAPER SCISSORS</h1>
-  <img src="images/hand-rock-svgrepo-com.svg">
-  <img src="images/hand-paper-svgrepo-com.svg">
-  <img src="images/hand-scissors-svgrepo-com.svg">
+
+  <h3>
+    The winner is first to 5 points.
+  </h3>
+
+  <h2>
+    <span>PLAYER</span>
+    <span class="score" id="player-score">0</span>
+    <span>vs</span>
+    <span class="score" id="computer-score">0</span>
+    <span>COMPUTER</span>
+  </h2>
+  <div class="battlefield">
+    <i class="fas fa-hand-rock" id="player-hand"></i>
+    <i class="fas fa-hand-rock" id="computer-hand"></i>
+  </div>
+  <div class="choose">
+    <button>
+      <i class="fas fa-hand-rock"></i>
+    </button>
+    <button>
+      <i class="fas fa-hand-paper"></i>
+    </button>
+    <button>
+      <i class="fas fa-hand-scissors"></i>
+    </button>
+  </div>
+
 
 </body>
 </html>
