@@ -39,17 +39,20 @@ i {
   display: flex;
   justify-content: space-between;
   justify-items: center;
-  margin: 50px 20%;
+  margin: 75px 20%;
 }
 
 .battlefield i {
-  font-size: 200px;
+  font-size: 150px;
+}
+
+#player-hand {
+  transform: rotate(90deg);
 }
 
 #computer-hand {
-  transform: scaleX(-1); /* mirror */
+  transform: rotate(-90deg) scaleX(-1);
 }
-
 .choose {
   display: flex;
   justify-content: center;
@@ -61,9 +64,25 @@ i {
   border: 0 solid;
   background-color: lightyellow;
   padding: 8px;
+  /*transition: 1s;*/
+  /*transition: background-color 1s;*/
 }
+
 .choose i {
   font-size: 100px;
+}
+
+#scissors {
+  transform: scaleX(-1);
+}
+
+.choose button:hover {
+  background-color: yellow;
+}
+
+.choose button:active {
+  background-color: yellow;
+  transform: translateY(4px);
 }
 
 
