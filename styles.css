@@ -85,4 +85,39 @@ i {
   transform: translateY(4px);
 }
 
+.modal {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.modal .main {
+  width: 20%;
+  border-radius: 1rem;
+  background-color: mediumpurple;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.modal button {
+  background-color: white;
+  border-radius: 0.5rem;
+  border-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
 
